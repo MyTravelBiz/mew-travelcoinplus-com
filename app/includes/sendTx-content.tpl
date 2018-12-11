@@ -88,7 +88,7 @@
                ng-click="dropdownAmount = !dropdownAmount"
                ng-class="dropdownEnabled ? '' : 'disabled'">
                 <strong>
-                  TLCP
+                  TLCPGas
                   <i class="caret"></i>
                 </strong>
             </a>
@@ -113,7 +113,7 @@
                       {{token.getSymbol()}}
                   </a>
               </li>
-            </ul>       
+            </ul>
 
           </div>
 

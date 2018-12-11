@@ -5,7 +5,6 @@ nodes.infuraNode = require("./nodeHelpers/infura");
 nodes.metamaskNode = require("./nodeHelpers/metamask");
 nodes.nodeTypes = {
 	TLCP: "TLCPGas",
-	Custom: "CUSTOM ETH"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
 nodes.ensSubNodeTypes = [nodes.nodeTypes.ETH];
@@ -25,15 +24,15 @@ nodes.customNodeObj = {
 nodes.nodeList = {
   travelcoinplus: {
     name: "TravelcoinPlus",
-    blockExplorerTX: "https://explorer.travelcoinplus.com/tx/[[txHash]]",
-    blockExplorerAddr: "https://explorer.travelcoinplus.com/address/[[address]]",
+    blockExplorerTX: "https://ethplorer.travelcoinplus.com/tx/[[txHash]]",
+    blockExplorerAddr: "https://ethplorer.travelcoinplus.com/address/[[address]]/transactions",
     type: nodes.nodeTypes.TLCP,
     eip155: true,
     chainId: 2222,
     tokenList: require("./tokens/tlcpTokens.json"),
     abiList: require("./abiDefinitions/tlcpAbi.json"),
     service: "travelcoinplus.com",
-    lib: new nodes.customNode("https://rpc1.travelcoinplus.com", "8545")
+    lib: new nodes.customNode("https://public.travelcoinplus.com", "8545")
   }
 };
 

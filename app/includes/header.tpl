@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>MyEtherWallet.com</title>
-<meta property="og:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta property="og:site_name" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="twitter:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet.com: Your Key to Ethereum">
+<title>TravelCoinPlus</title>
+<meta property="og:title" content="TravelCoinPlus wallet, powered by MyEtherWallet">
+<meta property="og:site_name" content="TravelCoinPlus wallet, powered by MyEtherWallet">
+<meta name="twitter:title" content="TravelCoinPlus wallet, powered by MyEtherWallet">
+<meta name="apple-mobile-web-app-title" content="TravelCoinPlus wallet, powered by MyEtherWallet">
 <link href="https://www.myetherwallet.com" rel="canonical">
-<meta content="https://www.myetherwallet.com" property="og:url">
-<meta content="https://www.myetherwallet.com" name="twitter:url">
+<meta content="https://mew.travelcoinplus.com" property="og:url">
+<meta content="https://mew.travelcoinplus.com" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
-<meta name="description" content="MyEtherWallet (MEW) is a free, open-source, client-side interface for generating Ethereum wallets & more. Interact with the Ethereum blockchain easily & securely.">
-<meta property="og:description"  content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="twitter:description" content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="description" content="TravelCoinPlus wallet, powered by MyEtherWallet, is a free, open-source, client-side interface for generating TravelCoinPlus wallets & more. Interact with the TravelCoinPlus blockchain easily & securely.">
+<meta property="og:description"  content="TravelCoinPlus wallet, powered by MyEtherWallet is a free, open-source, client-side Ethereum wallet. Enabling you to interact with the TravelCoinPlus blockchain easily & securely.">
+<meta name="twitter:description" content="TravelCoinPlus wallet, powered by MyEtherWallet is a free, open-source, client-side Ethereum wallet. Enabling you to interact with the TravelCoinPlus blockchain easily & securely.">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
@@ -26,13 +26,13 @@
 <link href="images/fav/manifest.json" rel="manifest">
 <link href="images/fav/safari-pinned-tab.svg" rel="mask-icon" color="#2f99b0">
 <link href="images/fav/favicon.ico" rel="shortcut icon">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet &middot; Your Key to Ethereum">
-<meta name="application-name" content="MyEtherWallet">
+<meta name="apple-mobile-web-app-title" content="TravelCoinPlus Wallet">
+<meta name="application-name" content="TravelCoinPlus Wallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://www.myetherwallet.com" />
-<meta property="og:title" content="MyEtherWallet.com  &middot; Your Key to Ethereum" />
+<meta property="og:url" content="https://mew.travelcoinplus.com" />
+<meta property="og:title" content="TravelCoinPlus wallet, powered by MyEtherWallet" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
@@ -46,28 +46,17 @@
 {
 "@context": "http://schema.org",
 "@type" : "Organization",
-"name" : "MyEtherWallet",
-"legalName" : "MyEtherWallet Inc",
-"url" : "https://www.myetherwallet.com/",
+"name" : "TravelCoinPlus",
+"legalName" : "TravelCoin Foundation CIC",
+"url" : "https://mew.travelcoinplus.com/",
 "contactPoint" : [{
   "@type" : "ContactPoint",
-  "email" : "support@myetherwallet.com",
-  "url"   : "https://myetherwallet.com",
+  "email" : "support@travelcoin.org",
+  "url"   : "https://www.travelcoin.org",
   "contactType" : "customer service"
 }],
-"logo" : "https://www.myetherwallet.com/images/myetherwallet-logo.png",
-"description": "MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely.",
-"sameAs" : [
-  "https://www.myetherwallet.com/",
-  "https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
-  "https://www.facebook.com/MyEtherWallet/",
-  "https://twitter.com/myetherwallet",
-  "https://medium.com/@myetherwallet",
-  "https://kb.myetherwallet.com/",
-  "https://github.com/kvhnuke/etherwallet",
-  "https://github.com/MyEtherWallet",
-  "https://kvhnuke.github.io/etherwallet/","https://myetherwallet.slack.com/"
-]
+"logo" : "https://mew.travelcoinplus.com/images/myetherwallet-logo.png",
+"description": "TravelCoinPlus wallet, powered by MyEtherWallet, is a free, open-source, client-side interface for generating TravelCoinPlus wallets &amp; more. Interact with the TravelCoinPlus blockchain easily &amp; securely."
 }
 </script>
 </head>
@@ -80,7 +69,7 @@
     <div class="container">
       DON'T GET PHISHED, please! 🎣 Thank you! 🤗
       <br />
-      1. BOOKMARK <a href="https://www.myetherwallet.com"> MYETHERWALLET.COM </a>
+      1. BOOKMARK <a href="https://www.myetherwallet.com"> MEW.TRAVELCOINPLUS.COM </a>
       <span class="hidden-xs">
         &nbsp;&nbsp;&nbsp;&nbsp;
         2. INSTALL <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn" target="_blank" rel="noopener noreferrer">EAL</a>
