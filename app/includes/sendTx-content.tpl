@@ -88,8 +88,8 @@
                ng-click="dropdownAmount = !dropdownAmount"
                ng-class="dropdownEnabled ? '' : 'disabled'">
                 <strong>
-                  TLCPGas
-                  <i class="caret"></i>
+                  TLCP
+                  <!--<i class="caret"></i>-->
                 </strong>
             </a>
 
@@ -101,7 +101,7 @@
                    ng-click="setSendMode('ether')">
                      {{ajaxReq.type}}
                 </a>
-              </li> -->
+              </li>
               <li ng-repeat="token in wallet.tokenObjs track by $index"
                   ng-show="token.balance!=0 &&
                            token.balance!='loading' &&
@@ -112,7 +112,7 @@
                      ng-click="setSendMode('token', $index, token.getSymbol())" >
                       {{token.getSymbol()}}
                   </a>
-              </li>
+              </li> -->
             </ul>
 
           </div>
