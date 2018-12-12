@@ -138,31 +138,31 @@
       <a tabindex="0" aria-haspopup="true" aria-label="adjust gas price" class="dropdown-toggle  btn btn-white" ng-click="dropdownGasPrice = !dropdownGasPrice">
         <span translate="OFFLINE_Step2_Label_3">Gas Price</span>:
           {{gas.value}} Gwei
-          <i class="caret"></i>
+          <!--<i class="caret"></i>-->
       </a>
-      <ul class="dropdown-menu" ng-show="dropdownGasPrice">
-        <div class="header--gas">
-          <span translate="OFFLINE_Step2_Label_3">Gas Price</span>:
-          {{gas.value}} Gwei
-          <input type="range" ng-model="gas.value" min="{{gas.min}}" max="{{gas.max}}" step="{{gas.step}}" ng-change="gasChanged()"/>
-          <p class="small col-xs-4 text-left"> <!--translate="GAS_Price_1"-->
-            Really, really slow
-          </p>
-          <p class="small col-xs-4 text-center"> <!--translate="GAS_Price_2"-->
-            Maybe Fast?
-          </p>
-          <p class="small col-xs-4 text-right"> <!--translate="GAS_Price_3"-->
-            Fast
-          </p>
-          <br />
-          <p class="small" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc"></p>
-          <a class="small"
-             translate="x_ReadMore"
-             href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html"
-             target="_blank"
-             rel="noopener noreferrer"></a>
-        </div>
-      </ul>
+      <!--<ul class="dropdown-menu" ng-show="dropdownGasPrice">-->
+        <!--<div class="header&#45;&#45;gas">-->
+          <!--<span translate="OFFLINE_Step2_Label_3">Gas Price</span>:-->
+          <!--{{gas.value}} Gwei-->
+          <!--<input type="range" ng-model="gas.value" min="{{gas.min}}" max="{{gas.max}}" step="{{gas.step}}" ng-change="gasChanged()"/>-->
+          <!--<p class="small col-xs-4 text-left"> &lt;!&ndash;translate="GAS_Price_1"&ndash;&gt;-->
+            <!--Really, really slow-->
+          <!--</p>-->
+          <!--<p class="small col-xs-4 text-center"> &lt;!&ndash;translate="GAS_Price_2"&ndash;&gt;-->
+            <!--Maybe Fast?-->
+          <!--</p>-->
+          <!--<p class="small col-xs-4 text-right"> &lt;!&ndash;translate="GAS_Price_3"&ndash;&gt;-->
+            <!--Fast-->
+          <!--</p>-->
+          <!--<br />-->
+          <!--<p class="small" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc"></p>-->
+          <!--<a class="small"-->
+             <!--translate="x_ReadMore"-->
+             <!--href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html"-->
+             <!--target="_blank"-->
+             <!--rel="noopener noreferrer"></a>-->
+        <!--</div>-->
+      <!--</ul>-->
     </span>
 
     <!-- Warning: The separators you see on the frontend are in styles/etherwallet-custom.less. If you add / change a node, you have to adjust these. Ping tayvano if you're not a CSS wizard -->
@@ -175,22 +175,22 @@
            <span translate="X_Network">Network:</span>
            {{curNode.name}}
            <small>({{curNode.service}})</small>
-           <i class="caret"></i>
+           <!--<i class="caret"></i>-->
       </a>
-      <ul class="dropdown-menu" ng-show="dropdownNode">
-        <li ng-repeat="(key, value) in nodeList">
-          <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)">
-            {{value.name}}
-            <small> ({{value.service}}) </small>
-            <img ng-show="value.service=='Custom'" src="images/icon-remove.svg" class="node-remove" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)"/>
-          </a>
-        </li>
-        <li>
-          <a ng-click="customNodeModal.open(); dropdownNode = !dropdownNode;" translate="X_Network_Custom">
-            Add Custom Network / Node
-          </a>
-        </li>
-      </ul>
+      <!--<ul class="dropdown-menu" ng-show="dropdownNode">-->
+        <!--<li ng-repeat="(key, value) in nodeList">-->
+          <!--<a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)">-->
+            <!--{{value.name}}-->
+            <!--<small> ({{value.service}}) </small>-->
+            <!--<img ng-show="value.service=='Custom'" src="images/icon-remove.svg" class="node-remove" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)"/>-->
+          <!--</a>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<a ng-click="customNodeModal.open(); dropdownNode = !dropdownNode;" translate="X_Network_Custom">-->
+            <!--Add Custom Network / Node-->
+          <!--</a>-->
+        <!--</li>-->
+      <!--</ul>-->
     </span>
 
     </div>
