@@ -40,9 +40,8 @@ var sendTxCtrl = function($scope, $sce, walletService, $rootScope) {
 
     $scope.setSendMode = function(sendMode, tokenId = '', tokensymbol = '') {
         $scope.tx.sendMode = sendMode;
-	console.log(tokenId+" "+tokensymbol);
+        console.log(tokenId+" "+tokensymbol);
         $scope.unitReadable = '';
-        debugger
         if ( globalFuncs.urlGet('tokensymbol') != null ) {
             $scope.unitReadable = $scope.tx.tokensymbol;
             $scope.tx.sendMode = 'token';

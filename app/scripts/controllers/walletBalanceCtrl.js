@@ -13,7 +13,6 @@ var walletBalanceCtrl = function($scope, $sce, $rootScope) {
     $scope.slide = 1;
 
     $scope.customTokenField = false;
-
     $scope.saveTokenToLocal = function() {
         globalFuncs.saveTokenToLocal($scope.localToken, function(data) {
             if (!data.error) {
